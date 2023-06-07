@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto' sans-serif;
+}
+.navbar-container{
+    width: 100%;
+    height: 77px;
+    background: radial-gradient(50% 50% at 50% 50%, #0D0D0D 0%, rgba(0, 0, 0, 0.9) 100%);
+    position: relative;
+    padding: 0 2em;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+}
+nav{
+    position: relative;
+}
+.navbar-itens{
+    list-style: none;
+    position: absolute;
+    display: inline-block;
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    right: 0;
+}
+.navbar-itens li{
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 25px;
+}
+.navbar-itens li a{
+    color: aliceblue;
+    text-decoration: none;
+    transition: .5s;
+}
+.navbar-itens li a:hover{
+    color: #CCC;
+}
+.default-btn{
+    padding: 15px 20px;
+    background-color: #791CBC;
+    border-radius: 5px;
+    color: aliceblue;
+}
+.default-btn:hover{
+    background-color: #6e1ca7;
+    color: aliceblue;
+}
+.main-banner{
+    background-image: url(/img/background.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 10em;
+    position: relative;
+    height: 633px;
+}
+.main-banner h1, .main-banner p{
+    color: #FFF;
+    text-align: center;
+    font-weight: 900;
+}
+.main-banner h1{
+    font-size: 54px;
+}
+.main-banner p{
+    font-size: 32px;
+}
